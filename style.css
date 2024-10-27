@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #D5E1EF;
+}
+body section {
+  border-radius: 20px;
+  width: 20.8vw;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+@media (max-width: 1440px) {
+  body section {
+    width: 21.8vw;
+    height: 60%;
+  }
+}
+@media (max-width: 1024px) {
+  body section {
+    height: 45%;
+  }
+}
+@media (max-width: 768px) {
+  body section {
+    height: 40%;
+  }
+}
+@media (max-width: 570px) {
+  body section {
+    width: 30.8vw;
+    height: 34%;
+  }
+}
+@media (max-width: 425px) {
+  body section {
+    width: 60.8vw;
+    height: 50%;
+  }
+}
+@media (max-width: 320px) {
+  body section {
+    width: 90.8vw;
+    height: 53%;
+  }
+}
+body section img {
+  width: 19.6vw;
+  border-radius: 10px;
+}
+@media (max-width: 570px) {
+  body section img {
+    width: 25.6vw;
+  }
+}
+@media (max-width: 425px) {
+  body section img {
+    width: 55.6vw;
+  }
+}
+@media (max-width: 320px) {
+  body section img {
+    width: 85.6vw;
+  }
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 19.6vw;
+  height: 20vh;
+}
+@media (max-width: 1440px) {
+  .textBox {
+    width: 17.8vw;
+  }
+}
+@media (max-width: 570px) {
+  .textBox {
+    width: 25.6vw;
+    height: 15vh;
+  }
+}
+@media (max-width: 425px) {
+  .textBox {
+    width: 55.6vw;
+  }
+}
+@media (max-width: 320px) {
+  .textBox {
+    width: 85.6vw;
+  }
+}
+.textBox h1 {
+  font-size: 30px;
+}
+@media (max-width: 1440px) {
+  .textBox h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1024px) {
+  .textBox h1 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 768px) {
+  .textBox h1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 570px) {
+  .textBox h1 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) {
+  .textBox h1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  .textBox h1 {
+    font-size: 22px;
+  }
+}
+.textBox p {
+  font-size: 23px;
+}
+@media (max-width: 1440px) {
+  .textBox p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .textBox p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .textBox p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 570px) {
+  .textBox p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .textBox p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .textBox p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
